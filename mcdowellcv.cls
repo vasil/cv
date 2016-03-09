@@ -23,7 +23,7 @@
 
 % Set up the fonts according to options
 \def\mainfontsize{11pt}
-\def\mainfontface{Times New Roman}
+\def\mainfontface{DIN Next LT Pro}
 
 \DeclareOption{calibri}{%
   \def\mainfontface{Calibri}
@@ -77,7 +77,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 %--------------------------------------------------------------------------------
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
-\def\afterheaderspace{3pt}
+\def\afterheaderspace{5pt}
 \def\beforesectionheaderspace{4.75pt}
 \def\sectionheadermargin{6pt}
 \def\aftersectionheaderspace{-4pt}
