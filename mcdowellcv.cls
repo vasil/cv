@@ -78,13 +78,15 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 %                                    Constants                                  -
 %--------------------------------------------------------------------------------
 \def\afterheaderspace{5pt}
-\def\beforesectionheaderspace{4.75pt}
-\def\sectionheadermargin{6pt}
+
+\def\beforesectionheaderspace{6.75pt}
 \def\aftersectionheaderspace{-4pt}
+
+\def\sectionheadermargin{6pt}
 \def\sectionheaderhrlueheight{0.5pt}
 \def\aftersinglelinesubsectionheaderspace{-18.5pt}
 \def\afterdoublelinesubsectionheaderspace{-10pt}
-\def\aftermultilinesubsectionheaderspace{-6pt}
+\def\aftermultilinesubsectionheaderspace{-3pt}
 \def\afteremptysubsectionheaderspace{3pt}
 \def\subsectionmargin{9pt}
 \def\aftersubsectionspace{4pt}
