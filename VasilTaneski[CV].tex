@@ -30,23 +30,23 @@
 
 \usepackage{hyperref}
 \hypersetup{
-	%pdftex=true,
-	plainpages=false,
-	%bookmarks=true,
-	%colorlinks=true,
-	baseurl={https://vasil.taneski.com/cv},
-	bookmarksnumbered=true,
-	%backref=true,
-	%pagebackref=true,
-	%linkcolor=blue,
-	%urlcolor=blue,
-	%citecolor=black,
-	pdfborder=0 0 0,
-	pdfhighlight=/P,
-	pdftitle={Vasil Taneski},
-	pdfsubject={Curriculum Vitae},
-	pdfauthor={Taneski, Vasil},
-	pdfkeywords={Vasil Taneski, CV, Curriculum Vitae, Resume}
+    %pdftex=true,
+    plainpages=false,
+    %bookmarks=true,
+    %colorlinks=true,
+    baseurl={https://vasil.taneski.com/cv},
+    bookmarksnumbered=true,
+    %backref=true,
+    %pagebackref=true,
+    %linkcolor=blue,
+    %urlcolor=blue,
+    %citecolor=black,
+    pdfborder=0 0 0,
+    pdfhighlight=/P,
+    pdftitle={Vasil Taneski},
+    pdfsubject={Curriculum Vitae},
+    pdfauthor={Taneski, Vasil},
+    pdfkeywords={Vasil Taneski, CV, Curriculum Vitae, Resume}
 }
 
 \name{Vasil Taneski}
@@ -55,80 +55,90 @@
 
 \begin{document}
 
-	% Contact Header
-	\pdfbookmark[1]{Contact}{Contact}
+    % Contact Header
+    \pdfbookmark[1]{Contact}{Contact}
     \makeheader
     \label{Contact}
 
-	% Employment Record
-	\pdfbookmark[1]{Employment Record}{Employment Record}
-    \begin{cvsection}{Employment record}
-	\label{Employment Record}
+    % Summary
+    \pdfbookmark[1]{Summary}{Summary}
+    \begin{cvsection}{Summary}
+        \label{Summary}
+        \begin{cvsubsection}{}{}{}
+            I am Senior Developer with more than 10 years of experience, among which a Technical/team Lead and Project Manager with direct control over the entire project and development life-cycle, from long-term planning to short-term activities (initiating, planning, executing, monitoring/controlling and closing the project).\\
+            \textit{Specialties:} Python/JavaScript/Ruby/Java Programming, Project Management.
+        \end{cvsubsection}
+    \end{cvsection}
+
+    % Experience
+    \pdfbookmark[1]{Experience}{Experience}
+    \begin{cvsection}{Experience}
+    \label{Employment Record}
         \begin{cvsubsection}{Senior Software Engineer}{Vox Teneo Macedonia}{Nov. 2014 -- present}
             I am Java/JavaScript Tech. Lead and Python Developer.
             \begin{itemize}
-                \item GesBVD --- Information system for tracking the health statuses of the animals in Belgium;
-                \item Leveltest --- Internal application for language assessment;
-                \item Exercise Editors --- Editors as Angular directives (Bower components) for building language exercises.
+                \item \textit{GesBVD} --- Information system for tracking the health statuses of the animals in Belgium;
+                \item \textit{Leveltest} --- Internal application for language assessment;
+                \item \textit{Exercise Editors} --- Editors as Angular directives (Bower components) for building language exercises.
             \end{itemize}
         \end{cvsubsection}
         \begin{cvsubsection}{R\&D Engineer}{Digital Medialab}{Nov. 2013 -- Jun. 2014}
             Research and implementation of new digital media opportunities.
             \begin{itemize}
-                \item Coca--Cola 2014 Game --- Logics and reporting for SMS award game;
-                \item LandrovalPy --- Realtime messenger API service for thousands of concurent users;
+                \item \textit{Coca--Cola 2014 Game} --- Logics and reporting for SMS award game;
+                \item \textit{LandrovalPy} --- Realtime messenger API service for thousands of concurrent users;
                 % \item xPrint Web Viewer --- Preprint page previewer amd organizer;
-                \item EmbLoop --- Embedded images sharing application for Intel Edison device.
+                \item \textit{EmbLoop} --- Embedded images sharing application for Intel Edison device.
             \end{itemize}
         \end{cvsubsection}
         \begin{cvsubsection}{Co-Founder \& CTO}{Innologica}{Mar. 2012 -- Jul. 2014}
             As a Technical Officer I was responsible for the work of the Business analyst, Development and Test Teams.\linebreak
             I have lead the development process in the Python, JavaScript, HTML environments.\\
-            My key reponsibilities were:
-            \begin{itemize}
-                \item Managing the software development lifecycle from end to end and code reviewing.
-				\item Being accountable for the design, development, implementation, maintenance, delivery and improvement of the provided services and products;
-				\item Defining and communicating the technical vision and delivery strategy, including selecting suitable technologies and making build vs. buy and staffing decisions.
-				\item Identifying and implementing emerging technologies and engineering practices that will improve efficiency and productivity;
-            \end{itemize}
+            % My key responsibilities were:
+            % \begin{itemize}
+            %     \item Managing the software development lifecycle from end to end and code reviewing.
+            %     \item Being accountable for the design, development, implementation, maintenance, delivery and improvement of the provided services and products;
+            %     \item Defining and communicating the technical vision and delivery strategy, including selecting suitable technologies and making build vs. buy and staffing decisions.
+            %     \item Identifying and implementing emerging technologies and engineering practices that will improve efficiency and productivity;
+            % \end{itemize}
         \end{cvsubsection}
         \begin{cvsubsection}{Senior Software Engineer}{Seavus}{Feb. 2010 -- Feb.2012}
             I was Senior Python developer with focus on game development (Game design, system architecture and programming).
             % I had direct experience with the whole application development cycle from building project characteristics according to gaming market and trends down to design, modeling and development.
             \begin{itemize}
-                \item Cynedom --- Massive Multiplayer Online Game with iPhone, Android and Facebook clients.
-                \item SunPower Game  --- Trivia style Facebook game for SunPower;
-                \item Andappstore --- Preparing BI reports (ad--hoc/standard) on the work of one of the first Android markets.
+                \item \textit{Cynedom} --- Massive Multiplayer Online Game with iPhone, Android and Facebook clients.
+                \item \textit{SunPower Game}  --- Trivia style Facebook game for SunPower;
+                \item \textit{Andappstore} --- Preparing BI reports (ad--hoc/standard) on the work of one of the first Android markets.
             \end{itemize}
         \end{cvsubsection}
         \begin{cvsubsection}{Software Engineer}{Netcetera}{Oct. 2008 -- Jan. 2010}
             I have worked on designing and implementation of EE applications based on Java and Ruby.
             \begin{itemize}
-                \item LBA Online Timetable --- Web application for presenting the timetable of the LBA Liechtensteinian Bus Company;
-                \item Evita --- Digital Health Dossier as a unique, multilevel data security concept;
-                \item Checklist Manager --- Internal application for managing templated checklists/issuelists.
+                \item \textit{LBA Online Timetable} --- Web application for presenting the timetable of the Liechtensteinian Bus Company;
+                \item \textit{Evita} --- Digital Health Dossier as a unique, multilevel data security concept;
+                \item \textit{Checklist Manager} --- Internal application for managing templated check-lists/issue-lists.
             \end{itemize}
         \end{cvsubsection}
         \begin{cvsubsection}{Programmer}{Self--employed}{Jun. 2002 -- Sep. 2008}
             Freelance programmer working mainly on Perl and web based projects.
             \begin{itemize}
-                \item Vezilka --- Software for automatic embroidery patterns generation;
-                \item EmbroidScript --- PostScript based extension for describing embroidery patterns;
-                \item IT infrastructure --- Complete web IT infrastructure for cable distribution network provider Kabelnet.
+                \item \textit{Vezilka} --- Software for automatic embroidery patterns generation;
+                \item \textit{EmbroidScript} --- PostScript based extension for describing embroidery patterns;
+                \item \textit{IT infrastructure} --- Complete web IT infrastructure for cable distribution network provider Kabelnet.
             \end{itemize}
         \end{cvsubsection}
     \end{cvsection}
 
     % Footer on the first page
     \vfill
-    \begin{tabu} to 1\textwidth { X[l,m] X[r,m] }
+    \begin{tabu} to 1\textwidth {X[l,m] X[r,m]}
         \textit{page 1 of 2}
     \end{tabu}
     \clearpage
 
     % Heder on the second page
     \begin{center}
-        \begin{tabu} to 1\textwidth { X[l,m] X[2,c,m] X[r,m] }
+        \begin{tabu} to 1\textwidth {X[l,m] X[c,m] X[r,m]}
             \small{+38975290350} &
             \textbf{\Large\textls[110]{\textsc{Vasil Taneski}}} &
             \small{\email{vasil@taneski.com}} \linebreak
@@ -154,7 +164,7 @@
                 \item \textbf{OS}: Unix (various linuces);
                 \item \textbf{Languages}: Python, JavaScript, Java, Ruby, BASH, SQL, UML;
                 \item \textbf{Web}: HTML, CSS, REST, HTTP, XML;
-                \item \textbf{Web TFrameworks}: Tornado, Flask, Google App Engine, Django, Sinatra, AngularJS\ldots;
+                \item \textbf{Web Frameworks}: Tornado, Flask, Google App Engine, Django, Sinatra, AngularJS\ldots;
                 \item \textbf{DBMS}: MySQL, PostgreSQL, SQLite3, Redis, MongoDB;
                 \item \textbf{Dev. Methodologies}: RUP, Agile (XP, Scrum);
                 \item \textbf{Tools}: Git, SVN, Grunt, Bower, \LaTeX.
@@ -174,8 +184,10 @@
         \end{cvsubsection}
     \end{cvsection}
     \vfill
-    \begin{tabu} to 1\textwidth { X[l,m] X[c,m] X[r,m] }
-        \textit{page 2 of 2} & \textit{ \url{https://vasil.taneski.com/cv} } & \textit{09 March 2016}
+    \begin{tabu} to 1\textwidth {X[l,m] X[c,m] X[r,m]}
+        \textit{page 2 of 2} &
+        \textit{\url{https://vasil.taneski.com/cv}} &
+        \textit{10 March 2016}
     \end{tabu}
     \clearpage
 \end{document}
