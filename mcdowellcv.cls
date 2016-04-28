@@ -23,7 +23,7 @@
 
 % Set up the fonts according to options
 \def\mainfontsize{11pt}
-\def\mainfontface{DIN Next LT Pro}
+\def\mainfontface{Optima LT Std}
 
 \DeclareOption{calibri}{%
   \def\mainfontface{Calibri}

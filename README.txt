@@ -6,7 +6,7 @@ Macedonia                                             https://vasil.taneski.com
 
 Summary
 -------------------------------------------------------------------------------
-I am Senior Developer with more than 10 years of experience, among which a
+I am Senior Developer with more than 10 years experience, among which a
 Technical/team Lead and Project Manager with direct control over the entire
 project and development life-cycle, from long-term planning to short-term
 activities (initiating, planning, executing, monitoring/controlling and closing
@@ -93,4 +93,4 @@ Languages
 • English: Fluent in reading, writing and speaking.
 
 
-https://vasil.taneski.com/cv                                      10 March 2016
+https://vasil.taneski.com/cv                                      12 March 2016
