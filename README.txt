@@ -1,5 +1,5 @@
 93/9 Ilinden Blvd.                                                 +38975290350
-1000 Skopje                      Vasil Taneski                vasil@taneski.com
+1000 Skopje                     Vasil Taneski                 vasil@taneski.com
 Macedonia                                             https://vasil.taneski.com
 
 
