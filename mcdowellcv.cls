@@ -39,9 +39,8 @@
 
 % Set font face
 \usepackage{fontspec}
-\setmainfont[SmallCapsFeatures={Renderer=Basic},
-Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
-
+\setmainfont[SmallCapsFeatures={Renderer=Basic, Letters=SmallCaps},
+			 Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 % Remove paragraph indentation
 \usepackage[parfill]{parskip}
 
@@ -114,7 +113,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 \name{}
 
 \newcommand\printname{
-	\textbf{\LARGE\textls[110]{\textsc{\@name}}}
+	\textbf{\LARGE\textsc{\@name}}
 }
 
 \makeatother

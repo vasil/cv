@@ -18,7 +18,7 @@ Senior Software Engineer      Vox Teneo Macedonia           Nov. 2014 – presen
 • Leading a team of Java and JavaScript developers;
 • Worked on Python/Django big data applications.
 
-R&D Engineer Digital             Medialab Nov.                 2013 – Jun. 2014
+R&D Engineer                   Digital Medialab           Nov. 2013 – Jun. 2014
 Research and implementation of new digital media opportunities.
 • Implemented massive messaging and notification system for the biggest iptv in
  the country;
