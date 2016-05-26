@@ -5,10 +5,12 @@ Macedonia                                             https://vasil.taneski.com
 
 Summary
 -------------------------------------------------------------------------------
-Senior Software Engineer with more than 10 years experience, among which as a 
-Technical/team Lead and Project Manager with direct control over the entire 
-project and development life-cycle.
-Specialties: Python/JavaScript/Ruby/Java Programming.
+Senior software engineer with over 10 years of comprehensive experience in 
+software engineering, database/system modeling and project management. With 
+direct control over entire projects and development life-cycles. High level of 
+involvement in the advancement of the industry and adherence to best practice.
+
+Key qualifications: Python/JavaScript/Ruby/Java programming.
 
 
 Experience
@@ -54,7 +56,7 @@ Freelance programmer working mainly on Perl and web based projects.
 Education
 -------------------------------------------------------------------------------
 Macedonia            Ss. Cyril and Methodius University        Oct. 1999 – 2004
-Dropout from Faculty of Mathematics and Natural Sciences.
+Faculty of Mathematics and Natural Sciences.
 Coursework: Calculus, Programming Languages, Data Structures, Algorithms,
  Operating Systems, Databases.
 
